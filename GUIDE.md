@@ -6,7 +6,7 @@ Please share your levels on Discord [here](https://discord.com/channels/10015786
 
 # How to play a custom level
 
-* Open the game [here]((https://jamesbrill.itch.io/feedwater))
+* Open the game [here](https://jamesbrill.itch.io/feedwater)
 * Click Custom Levels
 * Paste your code into the text box
 * Click Play Level
