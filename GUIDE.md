@@ -74,8 +74,39 @@ This can be anything, but I recommend you use `.` to make them easier to see.
 
 `D`
 
-<img width="95" alt="Screenshot 2022-12-31 at 15 42 42" src="https://user-images.githubusercontent.com/2140027/210148501-0dee60c9-ca66-4281-b9d0-
-                                                             
-                                                             e8768d8e59a9.png">
+<img width="95" alt="Screenshot 2022-12-31 at 15 42 42" src="https://user-images.githubusercontent.com/2140027/210148501-0dee60c9-ca66-4281-b9d0-e8768d8e59a9.png">
+
+## Spike
+
+`M`
+
+<img width="98" alt="Screenshot 2022-12-31 at 15 44 16" src="https://user-images.githubusercontent.com/2140027/210148557-b4fd1a05-3132-4db5-94a6-61eb8ef5e5bd.png">
+
+## Left Conveyor Belt
+
+`[`
+
+<img width="103" alt="Screenshot 2022-12-31 at 15 44 53" src="https://user-images.githubusercontent.com/2140027/210148582-39da2183-b6e3-47b8-9799-756918af9980.png">
+
+## Right Conveyor Belt
+
+`]`
+
+<img width="101" alt="Screenshot 2022-12-31 at 15 45 14" src="https://user-images.githubusercontent.com/2140027/210148592-6f0cc978-bb60-4182-b665-d782663860b5.png">
+
+## Up Conveyor Belt
+
+`n`
+
+<img width="96" alt="Screenshot 2022-12-31 at 15 45 44" src="https://user-images.githubusercontent.com/2140027/210148612-c2961edd-2395-4beb-bd36-502461eb6efe.png">
+
+## Down Conveyor Belt
+
+`u`
+
+<img width="94" alt="Screenshot 2022-12-31 at 15 46 10" src="https://user-images.githubusercontent.com/2140027/210148625-58afb6b8-cd21-4c3a-a669-ea4a88dae0a0.png">
+
+
+
 
 
