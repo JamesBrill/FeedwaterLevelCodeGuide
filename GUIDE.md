@@ -24,7 +24,7 @@ There is currently no validation on the level code submission, so you'll need to
 
 These are the symbols you can use in the level code:
 
-## Player
+## Player
 
 `P`
 
