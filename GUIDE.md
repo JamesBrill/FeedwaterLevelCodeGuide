@@ -7,7 +7,7 @@ While we're waiting for [Feedwater](https://jamesbrill.itch.io/feedwater) to get
 There are 4 blocks in a Feedwater level:
 1. Level name: this must always be the first line in the level code
 2. Level code: this is most items in the game, including walls. It can also include doors and wires. This block must start with `level` on its own line and finish with `endlevel` on its own line
-3. (OPTIONAL) Doors code: Feedwater levels can have button-operated doors. These include a button connected to a door via a wire. You may want to overlay wires on top of other items in the level (e.g. walls), hence this is a separate layer. This block must start with `doors` on its own line and finish with `enddoors` on its own line
+3. (OPTIONAL) Doors code: Feedwater levels can have button-operated doors. These include a button connected to a door via a wire. You may want to overlay wires on top of other items in the level (e.g. walls), hence this is a separate layer that is placed on top of the level code layer. This block must start with `doors` on its own line and finish with `enddoors` on its own line. It can _only_ contain buttons, wires, and doors - anything else is ignored
 4. (OPTIONAL) Checkpoints: each one is written on its own line and has the following format: `checkpoint <topLeftX> <topLeftY> <bottomRightX> <bottomRightY> <respawnX> <respawnY>`. The first two pairs of coordinates define the region in which the checkpoint is activated; the last one defines where the player will respawn when they die. The top-left position on the level has coordinates (0, 0). The x-axis goes from left to right and the y-axis goes from top to bottom. This block must start with `checkpoints` on its own line and finish with `endcheckpoints` on its own line
 
 # Rules
@@ -20,10 +20,9 @@ There is currently no validation on the level code submission, so you'll need to
 5. There must be a level name and a level code
 6. Each wire and button must be connected to a door
 
-# Symbols
+# Level Symbols
 
-These are the symbols you can use in the level code and doors code:
-
+These are the symbols you can use in the level code:
 
 ## Player
 
@@ -131,4 +130,100 @@ This can be anything, but I recommend you use `.` to make them easier to see.
 
 <img width="148" alt="Screenshot 2022-12-31 at 15 49 52" src="https://user-images.githubusercontent.com/2140027/210148745-587a11ee-9444-40a3-bdf3-ef4e67c42e65.png">
 
+# Door Symbols
+
+Below are the door symbols you can use in either the level code or the doors code to connect buttons to doors. Remember, doors must be connected to a button via an unbroken wire to function.
+
+## Left Button
+
+`{`
+
+<img width="96" alt="Screenshot 2022-12-31 at 15 52 14" src="https://user-images.githubusercontent.com/2140027/210148822-2a67e703-68c8-4d09-836e-0dd65969674d.png">
+
+## Right Button
+
+`}`
+
+<img width="100" alt="Screenshot 2022-12-31 at 15 52 46" src="https://user-images.githubusercontent.com/2140027/210148834-ce48133a-9285-4bf7-9d96-205c9a0b90c1.png">
+
+## Up Button
+
+`N`
+
+<img width="99" alt="Screenshot 2022-12-31 at 15 53 13" src="https://user-images.githubusercontent.com/2140027/210148841-998078fd-5599-46ed-b269-a62d62aac0c2.png">
+
+## Down Button
+
+`U`
+
+<img width="100" alt="Screenshot 2022-12-31 at 15 53 36" src="https://user-images.githubusercontent.com/2140027/210148855-de008a16-398d-46d9-9459-2838e69a6ddf.png">
+
+## Left Door
+
+`(`
+
+<img width="100" alt="Screenshot 2022-12-31 at 15 54 04" src="https://user-images.githubusercontent.com/2140027/210148864-0882b6c9-a50b-427d-a7e3-26f166c42040.png">
+
+## Right Door
+
+`)`
+
+<img width="98" alt="Screenshot 2022-12-31 at 15 54 21" src="https://user-images.githubusercontent.com/2140027/210148871-48da4186-6367-49d4-b9eb-acaa42ed5915.png">
+
+
+## Up Door
+
+`'`
+
+<img width="99" alt="Screenshot 2022-12-31 at 15 54 44" src="https://user-images.githubusercontent.com/2140027/210148875-bd0c0ea1-b436-444a-9df3-6e3be30c65d4.png">
+
+
+## Down Door
+
+`,`
+
+<img width="100" alt="Screenshot 2022-12-31 at 15 54 59" src="https://user-images.githubusercontent.com/2140027/210148884-8cff5b57-ff24-45d1-ac4b-a22e25e9128c.png">
+
+## Vertical Wire
+
+`|`
+
+<img width="97" alt="Screenshot 2022-12-31 at 15 56 25" src="https://user-images.githubusercontent.com/2140027/210148911-7ed8ea93-1df5-4ca2-a891-a6f04f55912d.png">
+
+## Horizontal Wire
+
+`-`
+
+<img width="99" alt="Screenshot 2022-12-31 at 15 56 44" src="https://user-images.githubusercontent.com/2140027/210148917-f5faf6f8-5226-4b63-9acb-5cf41e1b4a8c.png">
+
+## Cross Wire
+
+`+`
+
+<img width="99" alt="Screenshot 2022-12-31 at 15 59 58" src="https://user-images.githubusercontent.com/2140027/210149034-a1878bac-6581-47f5-bdbf-5f1cdf3c8877.png">
+
+## Bottom Left Wire
+
+`7`
+
+<img width="98" alt="Screenshot 2022-12-31 at 16 00 28" src="https://user-images.githubusercontent.com/2140027/210149049-93b58ac4-165f-47c7-b2d9-b83d7e384f72.png">
+
+## Bottom Right Wire
+
+`r`
+
+<img width="98" alt="Screenshot 2022-12-31 at 16 00 46" src="https://user-images.githubusercontent.com/2140027/210149056-a527c695-5797-43e2-8ebc-9bfc37429d26.png">
+
+
+## Top Left Wire
+
+`J`
+
+<img width="99" alt="Screenshot 2022-12-31 at 16 01 06" src="https://user-images.githubusercontent.com/2140027/210149071-7bce3fcf-1b3d-4ef6-8694-4edabc698239.png">
+
+## Top Right Wire
+
+`L`
+
+<img width="100" alt="Screenshot 2022-12-31 at 16 01 26" src="https://user-images.githubusercontent.com/2140027/210149082-f00b563f-1f17-4e2b-855e-4fee11358631.png">
 
