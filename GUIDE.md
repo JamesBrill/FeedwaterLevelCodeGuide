@@ -24,6 +24,19 @@ There is currently no validation on the level code submission, so you'll need to
 
 These are the symbols you can use in the level code and doors code:
 
+
+## Player
+
+`P`
+
+<img width="110" alt="Screenshot 2022-12-31 at 15 48 37" src="https://user-images.githubusercontent.com/2140027/210148704-a15d99b8-5d47-4041-b4fc-51440436b9c8.png">
+
+## Exit
+
+`E`
+
+<img width="99" alt="Screenshot 2022-12-31 at 15 49 14" src="https://user-images.githubusercontent.com/2140027/210148720-1d080638-f537-4d21-af90-34ec6d8e3f97.png">
+
 ## Empty space
 
 This can be anything, but I recommend you use `.` to make them easier to see.
@@ -106,7 +119,16 @@ This can be anything, but I recommend you use `.` to make them easier to see.
 
 <img width="94" alt="Screenshot 2022-12-31 at 15 46 10" src="https://user-images.githubusercontent.com/2140027/210148625-58afb6b8-cd21-4c3a-a669-ea4a88dae0a0.png">
 
+## Toxic Waste
 
+`T`
 
+<img width="103" alt="Screenshot 2022-12-31 at 15 47 33" src="https://user-images.githubusercontent.com/2140027/210148677-670b2e6f-631f-401f-91b2-51366c112be3.png">
+
+## Secret
+
+`*`
+
+<img width="148" alt="Screenshot 2022-12-31 at 15 49 52" src="https://user-images.githubusercontent.com/2140027/210148745-587a11ee-9444-40a3-bdf3-ef4e67c42e65.png">
 
 
