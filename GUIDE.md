@@ -36,7 +36,7 @@ These are the symbols you can use in the level code:
 
 <img width="99" alt="Screenshot 2022-12-31 at 15 49 14" src="https://user-images.githubusercontent.com/2140027/210148720-1d080638-f537-4d21-af90-34ec6d8e3f97.png">
 
-## Empty space
+## Empty Space
 
 This can be anything, but I recommend you use `.` to make them easier to see.
 
