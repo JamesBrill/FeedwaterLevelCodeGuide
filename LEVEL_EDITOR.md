@@ -63,3 +63,7 @@ While editing, click Play Level. When you're done testing, hit Backspace or Esca
 I encourage you to share your creations on Discord! From the editor, click Share Level Code and copy the level code from the code box (this does not work in full-screen).
 
 By default, the level code is at the full 100x100 grid size - this is intended for reloading levels into the editor to ensure all items are in the same position relative to the level borders. However, if you just want others to play the level and give them the smallest possible code, click Minified Code. You can toggle it back again if needed.
+
+# How to add checkpoints to your level
+
+For now, you'll still need to add checkpoints to your level code manually as per [this guide](https://github.com/JamesBrill/FeedwaterLevelCodeGuide/blob/main/GUIDE.md).
