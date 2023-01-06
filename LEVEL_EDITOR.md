@@ -21,9 +21,11 @@ There are three ways of doing this:
 
 Simply use the mouse scroll wheel.
 
-# How to select a tile
+# How to paint a tile
 
-You can click on tiles from the palette on the left. Alternatively, you can select them using their hotkeys. The hotkey for the selected tile is shown to you when you click on it, so it's possible to learn the hotkeys from the editor.
+You can select tiles from the palette on the left by clicking on them. Alternatively, you can select them using their hotkeys. The hotkey for the selected tile is displayed under the palette when you click on it, so it's possible to learn the hotkeys from the editor.
+
+Once a tile is selected, you can paint it on the grid. Note that only one Spawn Point can be placed.
 
 # How to create a new level
 
@@ -56,4 +58,4 @@ While editing, click Play Level. When you're done testing, hit Backspace or Esca
 
 I encourage you to share your creations on Discord! From the editor, click Share Level Code and copy the level code from the code box (this does not work in full-screen).
 
-By default, the level code is at the full 100x100 grid size - this is intended for reloading levels into the editor to ensure all items are in the same position. However, if you just want others to play the level and give them the smallest possible code, click Minified Code. You can toggle it back again if needed.
+By default, the level code is at the full 100x100 grid size - this is intended for reloading levels into the editor to ensure all items are in the same position relative to the level borders. However, if you just want others to play the level and give them the smallest possible code, click Minified Code. You can toggle it back again if needed.
