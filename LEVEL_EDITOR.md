@@ -50,6 +50,10 @@ From the main menu, click Custom Levels and then Load Level. In the code box, pa
 
 From the main menu, click Custom Levels and then Build Level.
 
+# How to save your level
+
+The level loaded in the level editor will automatically save every 10 seconds, when you test it, and when you view the level code.
+
 # How to test your level
 
 While editing, click Play Level. When you're done testing, hit Backspace or Escape on your keyboard to return to the editor.
