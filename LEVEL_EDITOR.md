@@ -60,7 +60,7 @@ While editing, click Play Level. When you're done testing, hit Backspace or Esca
 
 # How to share your level with others
 
-I encourage you to share your creations on Discord! From the editor, click Share Level Code and copy the level code from the code box (this does not work in full-screen).
+I encourage you to share your creations on Discord! From the editor, click Share Level Code and copy the level code from the code box (this does not work in full-screen) into a text file. Then share the file on the [#share-your-level](https://discord.com/channels/1001578650522636420/1071058347618471956) channel.
 
 By default, the level code is at the full 100x100 grid size - this is intended for reloading levels into the editor to ensure all items are in the same position relative to the level borders. However, if you just want others to play the level and give them the smallest possible code, click Minified Code. You can toggle it back again if needed.
 
