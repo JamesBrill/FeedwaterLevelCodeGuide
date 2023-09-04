@@ -2,7 +2,7 @@
 
 Feedwater now has a basic tool for building custom levels. This is what it currently looks like when editing a level:
 
-<img width="1042" alt="Screenshot 2023-01-06 at 19 47 18" src="https://user-images.githubusercontent.com/2140027/211088172-24589cf4-d955-4ff4-82eb-0547093379b7.png">
+<img width="962" alt="Screenshot 2023-09-04 at 20 56 45" src="https://github.com/JamesBrill/FeedwaterLevelCodeGuide/assets/2140027/13c5775e-4d08-4c93-b1e0-f9ff913e7048">
 
 # Current limitations
 
